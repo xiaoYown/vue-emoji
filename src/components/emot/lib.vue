@@ -17,7 +17,7 @@
       }
     },
     created () {
-      this.emots = ems.lib
+      this.emots = ems
       window.addEventListener('mousedown', this.close)
     },
     beforeDestroy () {
